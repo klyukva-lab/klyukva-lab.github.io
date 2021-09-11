@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Home » Klyukva</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="assets/image/icon.png" type="/image/png">
+	<link rel="stylesheet" href="assets/css.css">
+</head>
+<body>
+	<div class="nav">
+		<nav>
+			<a href="index.html">Home</a>
+		</nav>
+	</div>
+		<div class="header">
+			Klyukva
+		</div>
+		<div class="header__description">
+			Just making games.
+		</div>
+			<div class="soon">
+				Soon everything will be
+			</div>
+			<div class="soon_">
+				(´｡• ᵕ •｡) ♡
+			</div>
+<script>
+	document.querySelectorAll('a').forEach((elem) => {
+	
+		elem.onmouseenter =
+		elem.onmouseleave = (e) => {
+	
+			const tolerance = 10
+	
+			const left = 0
+			const right = elem.clientWidth
+	
+			let x = e.pageX - elem.offsetLeft
+	
+			if (x - tolerance < left) x = left
+			if (x + tolerance > right) x = right
+	
+			elem.style.setProperty('--x', `${ x }px`)
+	
+		}
+	
+	})
+</script>
+</body>
+</html>
