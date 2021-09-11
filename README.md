@@ -11,7 +11,7 @@ All instructions can be found at klyukva-lab.github.io.
 In case you need any help:
 >**Discord** - *klyukva#6212*
 
->**VK** - *[Klyukva](https://spetificteam)*
+>**VK** - *[Klyukva](https://klyukvalab)*
 
 ## License
 [MIT License](https://klyukva-lab.github.io/license). © Klyukva
