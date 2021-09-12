@@ -14,4 +14,4 @@ In case you need any help:
 >**VK** - *[Klyukva](https://klyukvalab)*
 
 ## License
-[MIT License](https://klyukva-lab.github.io/license). © Klyukva
+[MIT License](https://github.com/klyukva-lab/klyukva-lab.github.io/blob/main/LICENSE). © Klyukva
