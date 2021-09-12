@@ -1,7 +1,15 @@
 html,body {
-    background-image: url("image/bk.jpg");
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+    background: url("image/bk.jpg"); 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
